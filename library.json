@@ -1,0 +1,17 @@
+{
+  "name": "Timer",
+  "keywords": "timer",
+  "description": "Non blocking Timer class",
+  "authors":
+  [
+    {
+      "name": "Jon van Noort"
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/ozbotics/Timer"
+  },
+  "frameworks": "arduino"
+}
