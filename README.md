@@ -18,35 +18,35 @@ Include the Timer library
 ```
 
 Define an instance of Timer
-...
+```
 Timer timer();
-...
+```
 
 Start the timer. The duration is expressed in milliseconds
-...
+```
 timer.start(1000);
-...
+```
 
 Test if timer is complete
-...
+```
 if (timer.isComplete()) {
   // do something
 }
 else {
   // do something else
 }
-...
+```
 
 Note: isComplete() willl return true if the timer has never been started
 
 Check how much time is remaining
-...
+```
   unsigned long remaining = timer.remaining();
-...
+```
 
 
 ## Example
-...
+```
 #include <Timer.h>
 
 Timer timer;
@@ -69,7 +69,7 @@ void loop() {
   
   // do something else
 }
-...
+```
 
 
 First 
