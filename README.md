@@ -72,7 +72,6 @@ void loop() {
 ```
 
 
-First 
 ## Copyright
 
 Timer is provided Copyright © 2016 Ozbotics under MIT License.
