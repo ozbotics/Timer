@@ -25,5 +25,7 @@ bool Timer::isComplete() {
 }
 
 unsigned long Timer::remaining() {
-  return _duration - millis() - _startTime;
+  unsigned long remaining = _startTime + _duration - millis();
+  
+  return (remaining <= _duration) ? remaining : 0;
 }

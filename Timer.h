@@ -14,7 +14,7 @@
 class Timer  {
   protected:
     unsigned long _startTime;   /**< protected variable _startTime. millis() at the time of starting */ 
-    unsigned long _duration;    /**< protected variable _duration. number of millis the timer shoulkd run for */
+    unsigned long _duration;    /**< protected variable _duration. number of millis the timer should run for */
     bool _started = false;      /**< protected variable _started. timer is started flag */
     bool _complete = true;      /**< protected variable _complete. timer is complete flag. Note: is true even if timer has never been started */
     
