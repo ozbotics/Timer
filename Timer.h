@@ -1,4 +1,7 @@
-/** @file Timer.h */ 
+/** @file Timer.h 
+  *  Copyright (c) 2016 Ozbotics 
+  *  Distributed under the MIT license (see LICENSE)
+  */ 
 #ifndef _TIMER_H
   #define _TIMER_H
 
@@ -7,10 +10,7 @@
  /**
   *  Timer class. 
   *  Non-blocking Timer class for Arduino projects
-  *
-  *  Copyright (c) 2016 Ozbotics 
-  *  Distributed under the MIT license (see LICENSE)
-  */
+ */
 class Timer  {
   protected:
     unsigned long _startTime;   /**< protected variable _startTime. millis() at the time of starting */ 
