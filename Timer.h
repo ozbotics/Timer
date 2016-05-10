@@ -21,19 +21,21 @@ class Timer  {
   public:
    /**
     * start the timer, completing in dur milliseconds
+    *
     * @param dur milliscends
-    * @return nothing
     */  
     void start(unsigned long dur);
     
-    /**
+   /**
     * is the timer complete?
+    *
     * @return true if timer is complete
     */  
     bool isComplete();
     
-    /**
+   /**
     * how many milliseconds are remaining?
+    *
     * @return the number of milliseconds until the timer is complete
     */  
     unsigned long remaining();
